@@ -1,6 +1,8 @@
 # Environment for ipyparaview with jupyterlab
 name: ipy_pv_dev
 channels:
+  - rapidsai
+  - nvidia
   - conda-forge
 dependencies:
   - python=3.7.4
@@ -14,7 +16,8 @@ dependencies:
   - nodejs
   - numpy
   - matplotlib
-  - rapids=0.13 # necessary for the MNIST demo
+  - rapids=0.15 # necessary for the MNIST demo
+  - cudatoolkit=10.1
   - pip
   # - pip:
   #     - python-language-server
