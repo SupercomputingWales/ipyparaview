@@ -11,10 +11,10 @@ dependencies:
   - ipython
   - pillow
   - paraview
+  - xorg-libxt
   - nodejs
   - numpy
   - matplotlib
-  - cudatoolkit=10.1
   - pip
   # - pip:
   #     - python-language-server
